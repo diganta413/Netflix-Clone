@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: blanchedalmond;
+}
+.row {
+  display: flex;
+  height: 200px;
+  margin-right: 10px;
+  object-fit: contain;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 50px;
+}
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.row_large::-webkit-scrollbar {
+  display: none;
+}
+.pic {
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.pic:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.row_large {
+  display: flex;
+  height: 400px;
+  margin-right: 10px;
+  object-fit: contain;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 50px;
+}
+.main_row {
+  margin-left: 20px;
+}
+.main_row h2 {
+  padding-top: 10px;
+  font-size: 50px;
+}
